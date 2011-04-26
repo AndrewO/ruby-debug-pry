@@ -15,5 +15,5 @@ This has been tested on Ruby 1.8.7 p334 and Ruby 1.9.2 p136 and seems to work.
 Right now I don't have any of the additional features that ruby-debug's IRB command has. I don't really use them, but it would be nice to have them.
 
 * `next`, `step`, and `cont` support
-* and `autopry` configuration varibale
-* debugger state accessible as a global variable
+* add `autopry` configuration variable
+* make debugger state accessible as a global variable
