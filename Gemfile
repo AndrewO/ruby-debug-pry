@@ -1,6 +1,6 @@
 source "http://rubygems.org"
 
-gem "pry", "~> 0.8.3"
+gem "pry", ">= 0.8.3"
 
 platform :mri_18 do
   gem "ruby-debug", "~> 0.10.4"

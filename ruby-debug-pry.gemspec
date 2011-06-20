@@ -4,7 +4,7 @@ $:.unshift lib unless $:.include?(lib)
 
 Gem::Specification.new do |s|
   s.name        = "ruby-debug-pry"
-  s.version     = "0.0.2"
+  s.version     = "0.0.3"
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Andrew O'Brien"]
   s.email       = ["obrien.andrew@gmail.com"]
@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = ">= 1.3.6"
   
   
-  s.add_dependency("pry", "~>0.8.3")
+  s.add_dependency("pry", ">= 0.8.3")
   
   # s.add_dependency("ruby-debug", "~> 0.10.4") if RUBY_VERSION < "1.9"
   # s.add_dependency("ruby-debug19", "~> 0.11.6") if RUBY_VERSION >= "1.9"
